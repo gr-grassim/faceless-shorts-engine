@@ -24,7 +24,7 @@ faceless-shorts-engine/
 ├── engine.py               # Core compositing and rendering logic
 └── requirements.txt        # Environment dependencies
 
-### Setup & Installation
+## Setup & Installation
 1. Clone the repository:
     '''bash
     git clone [https://github.com/gr-grassim/faceless-shorts-engine.git](https://github.com/gr-grassim/faceless-shorts-engine.git)
@@ -42,7 +42,7 @@ faceless-shorts-engine/
     '''Bash
     pip install -r requirements.txt
 
-### Usage
+## Usage
 1. Ensure a valid vertical video is located at assets/background.mp4.
 2. Ensure a valid TrueType font is located at assets/font.ttf.
 3. Update the data/content.csv file with your desired text (wrap text containing commas in double quotes "").
@@ -52,7 +52,7 @@ faceless-shorts-engine/
 
 5. Check the outputs/ directory for your automatically generated short-form videos.
 
-### 👨‍💻 Author
+## 👨‍💻 Author
 Grassim Jaiswal
 
 Python Full-Stack Developer
