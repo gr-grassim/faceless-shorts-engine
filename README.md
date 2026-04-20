@@ -22,18 +22,21 @@ faceless-shorts-engine/
 │   └── content.csv         # Structured input data
 ├── outputs/                # Rendered .mp4 outputs
 ├── engine.py               # Core compositing and rendering logic
-└── requirements.txt        # Environment dependencies```
+└── requirements.txt        # Environment dependencies
+```
     
 
 ## Setup & Installation
 1. Clone the repository:
     ```bash
     git clone [https://github.com/gr-grassim/faceless-shorts-engine.git](https://github.com/gr-grassim/faceless-shorts-engine.git)
-    cd faceless-shorts-engine```
+    cd faceless-shorts-engine
+    ```
 
 2. Initialize the Virtual Environment:
     ```Bash
-    python -m venv venv```
+    python -m venv venv
+    ```
 
 3. Activate the Environment:
     Windows: .\venv\Scripts\activate
@@ -41,7 +44,8 @@ faceless-shorts-engine/
 
 4. Install Dependencies:
     ```Bash
-    pip install -r requirements.txt```
+    pip install -r requirements.txt
+    ```
 
 ## Usage
 1. Ensure a valid vertical video is located at assets/background.mp4.
@@ -49,14 +53,13 @@ faceless-shorts-engine/
 3. Update the data/content.csv file with your desired text (wrap text containing commas in double quotes "").
 4. Execute the rendering pipeline:
     ```Bash
-    python engine.py```
+    python engine.py
+    ```
 
 5. Check the outputs/ directory for your automatically generated short-form videos.
 
 ## 👨‍💻 Author
 Grassim Jaiswal
-
-Python Full-Stack Developer
 
 LinkedIn Profile **https://linkedin.com/in/gr-grassim/**
 
