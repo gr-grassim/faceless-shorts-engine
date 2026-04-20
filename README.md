@@ -23,16 +23,16 @@ faceless-shorts-engine/
 ├── outputs/                # Rendered .mp4 outputs
 ├── engine.py               # Core compositing and rendering logic
 └── requirements.txt        # Environment dependencies
-    '''
+    ```
 
 ## Setup & Installation
 1. Clone the repository:
-    '''bash
+    ```bash
     git clone [https://github.com/gr-grassim/faceless-shorts-engine.git](https://github.com/gr-grassim/faceless-shorts-engine.git)
     cd faceless-shorts-engine
 
 2. Initialize the Virtual Environment:
-    '''Bash
+    ```Bash
     python -m venv venv
 
 3. Activate the Environment:
@@ -40,7 +40,7 @@ faceless-shorts-engine/
     Mac/Linux: source venv/bin/activate
 
 4. Install Dependencies:
-    '''Bash
+    ```Bash
     pip install -r requirements.txt
 
 ## Usage
@@ -48,7 +48,7 @@ faceless-shorts-engine/
 2. Ensure a valid TrueType font is located at assets/font.ttf.
 3. Update the data/content.csv file with your desired text (wrap text containing commas in double quotes "").
 4. Execute the rendering pipeline:
-    '''Bash
+    ```Bash
     python engine.py
 
 5. Check the outputs/ directory for your automatically generated short-form videos.
