@@ -23,6 +23,7 @@ faceless-shorts-engine/
 ├── outputs/                # Rendered .mp4 outputs
 ├── engine.py               # Core compositing and rendering logic
 └── requirements.txt        # Environment dependencies
+    '''
 
 ## Setup & Installation
 1. Clone the repository:
