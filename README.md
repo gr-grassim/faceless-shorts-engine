@@ -1,4 +1,6 @@
 # Faceless Shorts Automation Engine
+##Version 1.0
+*Still in Development !!!:*
 
 An automated, pure Python pipeline designed for the hands-off generation and orchestration of vertical short-form video content. 
 
