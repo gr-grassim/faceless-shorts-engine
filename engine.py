@@ -11,7 +11,6 @@ def create_text_overlay(text, video_size, font_path):
     """
     img = Image.new('RGBA', video_size, (255, 255, 255, 0))
     draw = ImageDraw.Draw(img)
-    
     try:
         font = ImageFont.truetype(font_path, 60)
     except IOError:
