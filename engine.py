@@ -7,7 +7,7 @@ from moviepy.editor import VideoFileClip, ImageClip, CompositeVideoClip
 def create_text_overlay(text, video_size, font_path):
     """
     Generates a transparent PNG overlay with dynamically centered and wrapped text.
-    Includes a semi-transparent bounding box to ensure text readability against dynamic backgrounds.
+    Includes a semi-transparent boundingg box to ensure text readability against dynamic backgrounds.
     """
     img = Image.new('RGBA', video_size, (255, 255, 255, 0))
     draw = ImageDraw.Draw(img)
