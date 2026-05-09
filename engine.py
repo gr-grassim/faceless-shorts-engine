@@ -14,6 +14,7 @@ def create_text_overlay(text, video_size, font_path):
     
     try:
         font = ImageFont.truetype(font_path, 60)
+        
     except IOError:
         print("Warning: Custom font not found. Falling back to default system font.")
         font = ImageFont.load_default()
