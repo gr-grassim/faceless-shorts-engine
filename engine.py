@@ -71,5 +71,5 @@ if __name__ == "__main__":
     df = pd.read_csv("data/content.csv")
     
     # Execute batch generation
-    for index, row in df.iterrows():
+    for index,row in df.iterrows():
         generate_video(row['id'], row['text'])
