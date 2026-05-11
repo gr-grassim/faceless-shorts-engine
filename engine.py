@@ -72,4 +72,4 @@ if __name__ == "__main__":
     
     # Execute batch generation
     for index,row in df.iterrows():
-        generate_video(row['id'], row['text'])
+        generate_video(row['id'] , row['text'])
