@@ -58,7 +58,7 @@ faceless-shorts-engine/
     python engine.py
     ```
 
-5. Check the outputs/ directory for your automatically generated short-form videos.
+5. Check the directory i.e. outputs/ for your automatically generated short-form videos.
 
 ## 👨‍💻 Author
 Grassim Jaiswal
