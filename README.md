@@ -53,7 +53,7 @@ faceless-shorts-engine/
 1. Ensure a valid vertical video is located at assets/background.mp4.
 2. Ensure a valid TrueType font is located at assets/font.ttf.
 3. Update the data/content.csv file with your desired text (wrap text containing commas in double quotes "").
-4. Execute the rendering pipeline:
+4. Execute the rendering pipeline :
     ```Bash
     python engine.py
     ```
