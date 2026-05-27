@@ -44,7 +44,7 @@ faceless-shorts-engine/
     Windows: .\venv\Scripts\activate
     Mac/Linux: source venv/bin/activate
 
-4. Install Dependencies:
+4. Install Dependencies :
     ```Bash
     pip install -r requirements.txt
     ```
