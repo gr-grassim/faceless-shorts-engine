@@ -65,7 +65,7 @@ def generate_video(content_id, text):
     print(f"Pipeline Success: Saved to {output_filename}\n")
 
 if __name__ == "__main__":
-    print("Initializing Faceless Shorts Engine Pipeline......")
+    print("Initializing Faceless Shorts Engine Pipeline.........")
     
     # Ingest structured data
     df = pd.read_csv("data/content.csv")
